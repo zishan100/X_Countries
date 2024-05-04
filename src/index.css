@@ -1,0 +1,12 @@
+body {
+  /* margin: 0;
+  padding: 0;
+  font-family: sans-serif; */
+}
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
