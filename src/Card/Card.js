@@ -3,7 +3,7 @@ import style from './Card.module.css'
 
 export default function Card({name,url,alt}) {
   return (
-    <div className={style.container} >
+    <div className={style.countryCard} >
         <img  
             src={url} 
             alt={alt} className={style.countryFlag} 
