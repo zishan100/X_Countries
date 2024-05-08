@@ -92,7 +92,6 @@ function App () {
             updateCountries.map((items,idx)=>{
               return (
                 <Card 
-                  key={idx} 
                   name={items.name.common} 
                   url={items.flags.png} 
                   alt={items.flags.alt}  
