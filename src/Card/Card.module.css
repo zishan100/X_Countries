@@ -1,18 +1,18 @@
 .container{
-   width:20%;
-   height:200px; 
+   /* width:20%; */
+   height:230px; 
    display:flex;
    flex-direction: column;
    align-items: center;
    justify-content: center; 
    /* border: 1px solid grey;  */
-   border-radius: 2rem;
+   border-radius: .5rem;
    margin:1rem 0.1rem;
    box-shadow: 0px 0px 3px grey;
 }
 
 .countryFlag{
-   width:70%;
+   width:60%;
 }
 
 .countryName{
