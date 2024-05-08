@@ -8,7 +8,7 @@ export default function Card({name,url,alt}) {
             src={url} 
             alt={alt} className="countryFlag" 
         />
-        <h3 className="countryName">{name}</h3>
+        <h2 className="countryName">{name}</h2>
     </div>
   )
 }
