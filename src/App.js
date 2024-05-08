@@ -26,7 +26,7 @@ function App () {
           
         const getData = await axios(`https://restcountries.com/v3.1/all`);
           
-        console.log(getData.data);
+        // console.log(getData.data);
         if( getData?.data && getData.data.length > 0  ){
           setCountries(getData.data);
           setUpdateCountries(getData.data);   
@@ -48,7 +48,7 @@ function App () {
 
       if( searchCountries){
         intervalId = setTimeout(()=>{
-          console.log("Inside setTimeOut function...")
+          // console.log("Inside setTimeOut function...")
           const getData = filteringCountries(searchCountries);
           setUpdateCountries(getData);    
           
@@ -61,8 +61,8 @@ function App () {
       }
  
       return ()=>{
-        console.log(searchCountries)
-        console.log("This function run before useEffect CallBack");
+        // console.log(searchCountries)
+        // console.log("This function run before useEffect CallBack");
         clearTimeout(intervalId);
 
       }
